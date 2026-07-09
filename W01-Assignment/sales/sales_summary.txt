@@ -1,0 +1,9 @@
+Sales Summary
+----------------------------
+ Total Sales: ¤5,868.75
+
+ Details:
+  sales_mar.txt: ¤2,100.30
+  sales_apr.txt: ¤1,675.20
+  sales_feb.txt: ¤842.75
+  sales_jan.txt: ¤1,250.50
