@@ -1,0 +1,15 @@
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/bin/Debug/net10.0/FileIODemo
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/bin/Debug/net10.0/FileIODemo.deps.json
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/bin/Debug/net10.0/FileIODemo.runtimeconfig.json
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/bin/Debug/net10.0/FileIODemo.dll
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/bin/Debug/net10.0/FileIODemo.pdb
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/obj/Debug/net10.0/FileIODemo.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/obj/Debug/net10.0/FileIODemo.AssemblyInfoInputs.cache
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/obj/Debug/net10.0/FileIODemo.AssemblyInfo.cs
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/obj/Debug/net10.0/FileIODemo.csproj.CoreCompileInputs.cache
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/obj/Debug/net10.0/FileIODemo.sourcelink.json
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/obj/Debug/net10.0/FileIODemo.dll
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/obj/Debug/net10.0/refint/FileIODemo.dll
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/obj/Debug/net10.0/FileIODemo.pdb
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/obj/Debug/net10.0/FileIODemo.genruntimeconfig.cache
+/workspaces/CSE325-Max/W01-Assignment/FileIODemo/obj/Debug/net10.0/ref/FileIODemo.dll
