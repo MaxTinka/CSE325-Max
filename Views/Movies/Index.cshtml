@@ -1,0 +1,55 @@
+@model IEnumerable<MovieApp.Models.Movie>
+
+@{
+    ViewData["Title"] = "My Movies";
+}
+
+<h1>My Favorite Movies</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<!-- Search Form -->
+<form asp-action="Index" method="get">
+    <div class="form-group">
+        <label for="searchString">Search by Title:</label>
+        <input type="text" name="searchString" value="@ViewData["CurrentFilter"]" class="styled-input" />
+    </div>
+    <div class="form-group">
+        <label for="searchYear">Year (show movies from this year or newer):</label>
+        <input type="number" name="searchYear" min="1900" max="@DateTime.Now.Year" 
+               value="@ViewData["CurrentYear"]" class="styled-input" />
+    </div>
+    <input type="submit" value="Search" class="btn btn-primary" />
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Title)</th>
+            <th>@Html.DisplayNameFor(model => model.ReleaseDate)</th>
+            <th>@Html.DisplayNameFor(model => model.Genre)</th>
+            <th>@Html.DisplayNameFor(model => model.Price)</th>
+            <th>@Html.DisplayNameFor(model => model.Rating)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                <td>@Html.DisplayFor(modelItem => item.ReleaseDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.Genre)</td>
+                <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                <td>@Html.DisplayFor(modelItem => item.Rating)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
